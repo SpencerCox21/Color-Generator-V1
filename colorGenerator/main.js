@@ -58,6 +58,8 @@ function changeColor() {
     console.log(randomRGB);  //Log the new color value
     
     changeColorBox.style.backgroundColor = randomRGB;  //Set the background color of the colorBox
+
+    document.getElementById('rgbVariable').innerHTML = randomRGB;
     
     //console.log("Background color:", changeColorBox.style.backgroundColor);  //Log the background color of the element
     
