@@ -46,7 +46,7 @@ function getColor() {
     randomGreen = getGreen(greenLowerLimit, greenUpperLimit);  //Get new random green within upper and lower limits
     randomBlue = getBlue(blueLowerLimit, blueUpperLimit);  //Get new random blue within upper and lower limits
     
-    return `rgb(${randomRed},${randomGreen},${randomBlue})`;
+    return `RGB(${randomRed},${randomGreen},${randomBlue})`;
 };
 
 
