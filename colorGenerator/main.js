@@ -369,12 +369,12 @@ function ifColorSelected() {
         
         console.log('all blue')
         
-        redUpperLimit = 119;
+        redUpperLimit = 100;
         redLowerLimit = 0;
-        greenUpperLimit = 119;
-        greenLowerLimit = 0;
-        blueUpperLimit = 255;
-        blueLowerLimit = 120;
+        greenUpperLimit = 240;
+        greenLowerLimit = 170;
+        blueUpperLimit = 70;
+        blueLowerLimit = 0;
         
         getColor();
 
