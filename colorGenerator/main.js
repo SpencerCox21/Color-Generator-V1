@@ -57,10 +57,9 @@ function ifColorSelected() {
     
     //below lines are for red
     if  (document.getElementById("chooseColor").value == "red" && document.getElementById("chooseShade").value == "all") {
-        
+
         console.log('all red')
 
-        
         redUpperLimit = 255;
         redLowerLimit = 200;
         greenUpperLimit = 100;
@@ -69,71 +68,71 @@ function ifColorSelected() {
         blueLowerLimit = 0;
         
         getColor();
+
         //return `RGB(255,100,0)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "red" && document.getElementById("chooseShade").value == "light") {
         
-        console.log('light blue')
+        console.log('light red')
         
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
+        redUpperLimit = 255;
+        redLowerLimit = 220;
+        greenUpperLimit = 110;
+        greenLowerLimit = 70;
+        blueUpperLimit = 110;
+        blueLowerLimit = 70;
         
         getColor();
 
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
-        
+        //return `RGB(255,70,110)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "red" && document.getElementById("chooseShade").value == "dark") {
         
-        console.log('dark blue')
+        console.log('dark red')
         
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
+        redUpperLimit = 220;
+        redLowerLimit = 150;
+        greenUpperLimit = 70;
+        greenLowerLimit = 0;
+        blueUpperLimit = 70;
+        blueLowerLimit = 0;
         
         getColor();
 
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
+        //return `RGB(150,70,70)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "red" && document.getElementById("chooseShade").value == "medium") {
         
-        console.log('medium blue')
+        console.log('medium red')
         
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
+        redUpperLimit = 255;
+        redLowerLimit = 210;
+        greenUpperLimit = 70;
+        greenLowerLimit = 0;
+        blueUpperLimit = 70;
+        blueLowerLimit = 0;
         
         getColor();
 
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
+        //return `RGB(210,50,0)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     //above lines are for red
     
     //below lines are for orange
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "b" && document.getElementById("chooseShade").value == "all") {
         
-        console.log('all blue')
+        console.log('all ')
         
         redUpperLimit = 119;
         redLowerLimit = 0;
@@ -149,7 +148,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "b" && document.getElementById("chooseShade").value == "light") {
         
         console.log('light blue')
         
@@ -168,9 +167,9 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "b" && document.getElementById("chooseShade").value == "dark") {
         
-        console.log('dark blue')
+        console.log('dark b')
         
         redUpperLimit = 130;
         redLowerLimit = 0;
@@ -186,7 +185,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "b" && document.getElementById("chooseShade").value == "medium") {
         
         console.log('medium blue')
         
@@ -206,7 +205,7 @@ function ifColorSelected() {
     //above lines are for orange
     
     //below lines are for yellow
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "b" && document.getElementById("chooseShade").value == "all") {
         
         console.log('all blue')
         
@@ -224,7 +223,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "be" && document.getElementById("chooseShade").value == "light") {
         
         console.log('light blue')
         
@@ -243,7 +242,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "dark") {
         
         console.log('dark blue')
         
@@ -261,7 +260,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "medium") {
         
         console.log('medium blue')
         
@@ -281,7 +280,7 @@ function ifColorSelected() {
     //above lines are for yellow
     
     //below lines are for green
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "all") {
         
         console.log('all blue')
         
@@ -299,7 +298,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "be" && document.getElementById("chooseShade").value == "light") {
         
         console.log('light blue')
         
@@ -318,7 +317,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "dark") {
         
         console.log('dark blue')
         
@@ -336,7 +335,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "medium") {
         
         console.log('medium blue')
         
@@ -356,7 +355,7 @@ function ifColorSelected() {
     //above lines are for green
     
     //below lines are for turquoise
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "all") {
         
         console.log('all blue')
         
@@ -374,7 +373,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "light") {
         
         console.log('light blue')
         
@@ -393,7 +392,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "dark") {
         
         console.log('dark blue')
         
@@ -411,7 +410,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "medium") {
         
         console.log('medium blue')
         
@@ -474,7 +473,7 @@ function ifColorSelected() {
         
         redUpperLimit = 60;
         redLowerLimit = 0;
-        greenUpperLimit = 140;
+        greenUpperLimit = 160;
         greenLowerLimit = 0;
         blueUpperLimit = 255;
         blueLowerLimit = 150;
@@ -506,7 +505,7 @@ function ifColorSelected() {
     //above lines are for blue
     
     //below lines are for purple
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "bue" && document.getElementById("chooseShade").value == "all") {
         
         console.log('all blue')
         
@@ -524,7 +523,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "light") {
         
         console.log('light blue')
         
@@ -543,7 +542,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "dark") {
         
         console.log('dark blue')
         
@@ -561,7 +560,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "medium") {
         
         console.log('medium blue')
         
@@ -581,7 +580,7 @@ function ifColorSelected() {
     //above lines are for purple
     
     //below lines are for pink
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "all") {
         
         console.log('all blue')
         
@@ -599,7 +598,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "light") {
         
         console.log('light blue')
         
@@ -618,7 +617,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "dark") {
         
         console.log('dark blue')
         
@@ -636,7 +635,7 @@ function ifColorSelected() {
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "blue" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "medium") {
         
         console.log('medium blue')
         
