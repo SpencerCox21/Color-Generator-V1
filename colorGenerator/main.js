@@ -365,71 +365,70 @@ function ifColorSelected() {
     //above lines are for green
     
     //below lines are for turquoise
-    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "turquoise" && document.getElementById("chooseShade").value == "all") {
         
-        console.log('all blue')
+        console.log('all turquoise')
         
         redUpperLimit = 100;
         redLowerLimit = 0;
-        greenUpperLimit = 240;
+        greenUpperLimit = 230;
+        greenLowerLimit = 160;
+        blueUpperLimit = 160;
+        blueLowerLimit = 130;
+        
+        getColor();
+
+        //return `RGB(100,230,160)`  //use this line to test the extremes.
+        
+        return `RGB(${randomRed},${randomGreen},${randomBlue})`
+    };
+    
+    if  (document.getElementById("chooseColor").value == "turquoise" && document.getElementById("chooseShade").value == "light") {
+        
+        console.log('light turquoise')
+        
+        redUpperLimit = 50;
+        redLowerLimit = 0;
+        greenUpperLimit = 255;
+        greenLowerLimit = 200;
+        blueUpperLimit = 220;
+        blueLowerLimit = 180;
+        
+        getColor();
+
+        //return `RGB(100,255,200)`  //use this line to test the extremes.
+        
+        return `RGB(${randomRed},${randomGreen},${randomBlue})`
+    };
+    
+    if  (document.getElementById("chooseColor").value == "turquoise" && document.getElementById("chooseShade").value == "dark") {
+        
+        console.log('dark turquoise')
+        
+        redUpperLimit = 50;
+        redLowerLimit = 0;
+        greenUpperLimit = 200;
+        greenLowerLimit = 130;
+        blueUpperLimit = 150;
+        blueLowerLimit = 100;
+        
+        getColor();
+
+        //return `RGB(0,130,100)`  //use this line to test the extremes.
+        
+        return `RGB(${randomRed},${randomGreen},${randomBlue})`
+    };
+    
+    if  (document.getElementById("chooseColor").value == "turquoise" && document.getElementById("chooseShade").value == "medium") {
+        
+        console.log('medium turquoise')
+        
+        redUpperLimit = 50;
+        redLowerLimit = 0;
+        greenUpperLimit = 220;
         greenLowerLimit = 170;
-        blueUpperLimit = 70;
-        blueLowerLimit = 0;
-        
-        getColor();
-
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
-        
-        return `RGB(${randomRed},${randomGreen},${randomBlue})`
-    };
-    
-    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "light") {
-        
-        console.log('light blue')
-        
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
-        
-        getColor();
-
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
-        
-        
-        return `RGB(${randomRed},${randomGreen},${randomBlue})`
-    };
-    
-    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "dark") {
-        
-        console.log('dark blue')
-        
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
-        
-        getColor();
-
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
-        
-        return `RGB(${randomRed},${randomGreen},${randomBlue})`
-    };
-    
-    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "medium") {
-        
-        console.log('medium blue')
-        
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
+        blueUpperLimit = 190;
+        blueLowerLimit = 150;
         
         getColor();
 
