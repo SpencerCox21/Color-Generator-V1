@@ -514,75 +514,74 @@ function ifColorSelected() {
     //above lines are for blue
     
     //below lines are for purple
-    if  (document.getElementById("chooseColor").value == "bue" && document.getElementById("chooseShade").value == "all") {
+    if  (document.getElementById("chooseColor").value == "purple" && document.getElementById("chooseShade").value == "all") {
         
-        console.log('all blue')
+        console.log('all purple')
         
-        redUpperLimit = 119;
-        redLowerLimit = 0;
-        greenUpperLimit = 119;
+        redUpperLimit = 220;
+        redLowerLimit = 110;
+        greenUpperLimit = 100;
         greenLowerLimit = 0;
         blueUpperLimit = 255;
-        blueLowerLimit = 120;
+        blueLowerLimit = 180;
         
         getColor();
 
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
+        //return `RGB(110,100,180)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "light") {
+    if  (document.getElementById("chooseColor").value == "purple" && document.getElementById("chooseShade").value == "light") {
         
-        console.log('light blue')
+        console.log('light purple')
         
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
+        redUpperLimit = 230;
+        redLowerLimit = 150;
+        greenUpperLimit = 100;
+        greenLowerLimit = 50;
         blueUpperLimit = 255;
-        blueLowerLimit = 240;
+        blueLowerLimit = 220;
         
         getColor();
 
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
-        
+        //return `RGB(230,100,255)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "dark") {
+    if  (document.getElementById("chooseColor").value == "purple" && document.getElementById("chooseShade").value == "dark") {
         
-        console.log('dark blue')
+        console.log('dark purple')
         
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
+        redUpperLimit = 110;
+        redLowerLimit = 50;
+        greenUpperLimit = 40;
+        greenLowerLimit = 10;
+        blueUpperLimit = 180;
+        blueLowerLimit = 70;
         
         getColor();
 
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
+        //return `RGB(130,40,180)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
     
-    if  (document.getElementById("chooseColor").value == "ble" && document.getElementById("chooseShade").value == "medium") {
+    if  (document.getElementById("chooseColor").value == "purple" && document.getElementById("chooseShade").value == "medium") {
         
-        console.log('medium blue')
+        console.log('medium purple')
         
-        redUpperLimit = 130;
-        redLowerLimit = 0;
-        greenUpperLimit = 255;
-        greenLowerLimit = 150;
-        blueUpperLimit = 255;
-        blueLowerLimit = 240;
+        redUpperLimit = 180;
+        redLowerLimit = 100;
+        greenUpperLimit = 75;
+        greenLowerLimit = 30;
+        blueUpperLimit = 230;
+        blueLowerLimit = 150;
         
         getColor();
 
-        //return `RGB(0,0,0)`  //use this line to test the extremes.
+        //return `RGB(180,30,220)`  //use this line to test the extremes.
         
         return `RGB(${randomRed},${randomGreen},${randomBlue})`
     };
