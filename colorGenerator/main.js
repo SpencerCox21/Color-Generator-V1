@@ -864,7 +864,8 @@ function ifColorSelected() {
     };
 
     if  (document.getElementById("chooseColor").value == "all" && document.getElementById("chooseShade").value == "medium") {
-        // if color = all and shade = medium { call this other function named mediumShadeOfAll() }
+        
+        mediumShadeOfAll();
 
         console.log('medium all')
 
@@ -892,8 +893,11 @@ function ifColorSelected() {
 };
 
 
-/*
+
 function mediumShadeOfAll() {
+
+
+/*
 
     as long as one color is above 200 and one color is below 128 then the last color does not matter.
     if 2 colors are above 200 then the last needs to be below 128
@@ -927,9 +931,11 @@ function mediumShadeOfAll() {
     //return `RGB(0,0,0)`  //use this line to test the extremes.
 
     return `RGB(${randomRed},${randomGreen},${randomBlue})`
+*/
+
 
 };
 
-*/
+
 
 
